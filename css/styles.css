@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+}
+
+.nav__bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: orange;
+    padding: 30px;
+    align-items: center;
+
+}
+
+.logo>a {
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+
+}
+
+.nav__items {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav__items>ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+
+
+
+}
+
+.nav__items>ul>li {
+    text-decoration: none;
+    padding-left: 20px;
+
+}
+
+.nav__items>ul>li>a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+
+}
+
+.nav__items>button {
+    padding: 12px;
+    color: black;
+}
+
+#home {
+    display: flex;
+    /* background-color: $text-color; */
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.home__left {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.home__left>img {
+    width: 300px;
+}
+
+.home__right {
+    width: 50%;
+    padding: 10px;
+    align-items: center;
+}
+
+.home__right>h2 {
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+
+.home__right>h2>span {
+    color: blue;
+}
+
+.home__right>p {
+    padding: 10px;
+    color: orange;
+    text-align: center;
+    font-size: 24px;
+}
+
+span {
+    color: white;
+}
+
+/* projects */
+.section-heading {
+    text-align: center;
+}
+
+#projects {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.project__card {
+    padding: 20px;
+    border: 3px;
+    background-color: orange;
+    border: 5px solid black;
+}
+
+.project__card>img {
+    width: 100%;
+    object-fit: contain;
+
+}
+
+.contact-sec {
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(219, 213, 213); */
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    padding: 20px;
+    color: orange;
+}
+
+.c-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+#input{
+    border: none;
+    padding: 10px;
+    border-radius: 25px;
+}
+#button{
+    border: 2px black solid;
+    border-radius:25px ;
+    background-color: orange;
+    padding: 10px;
+    width: 100px;
+    font-size: 15px;
+    text-align: center;
+}
+footer{
+    background-color: orange;
+    text-align: center;
+}
